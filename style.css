@@ -19,24 +19,6 @@ body {
   background-color: var(--background);
 }
 
-/* #Home{
-  opacity: 1;
-}
-#About{
-  opacity: 1;
-}
-#Education{
-  opacity: 1;
-}
-#Product{
-  opacity: 1;
-}
-#Service{
-  opacity: 1;
-}
-#Contact{
-  opacity: 1;
-} */
 nav {
   position: fixed;
   top: 0;
@@ -260,9 +242,10 @@ h5 {
   ul {
     gap: 0;
   }
+  
 }
 
-/* about secton */
+
 /* About page css */
 
 .AboutSection1 {
@@ -499,8 +482,8 @@ h5 {
 
 @media (max-width:1000px) {
   .education img {
-    width: 60vw;
-    height: 25vh;
+    width: 55vw;
+    height: 40vh;
     border-radius: 20px;
   }
 
