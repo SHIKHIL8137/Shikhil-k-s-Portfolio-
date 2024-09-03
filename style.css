@@ -231,15 +231,16 @@ h5 {
   #menuList {
     display: flex;
     flex-direction: column;
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: 100%;
     right: 0;
     left: 0;
+    width: 100%;
     background-color: rgba(15, 15, 15, 0.959);
     height: 100vh;
     overflow: hidden;
     transition: .3s ease-in-out;
-    padding-top:92px;
+    padding: 1em 3em;
   }
 
   #hamburge span {
