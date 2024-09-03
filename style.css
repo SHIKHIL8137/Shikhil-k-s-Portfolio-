@@ -222,7 +222,6 @@ h5 {
     height: 100vh;
     overflow: hidden;
     transition: .3s ease-in-out;
-    padding: 1em 3em;
   }
 
   #hamburge span {
