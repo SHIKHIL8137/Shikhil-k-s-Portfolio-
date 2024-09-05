@@ -170,6 +170,10 @@ h5 {
   opacity: .8;
   cursor: pointer;
 }
+.btn a{
+  text-decoration: none;
+  color:black;
+}
 
 .btn:hover {
   opacity: 1;
