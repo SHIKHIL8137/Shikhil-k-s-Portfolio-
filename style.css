@@ -35,7 +35,7 @@ nav {
   align-items: center;
   z-index: 1000;
   animation: navbaranmi 1s ease-in-out;
-  /* overflow: hidden; */
+
 
 }
 
@@ -225,10 +225,10 @@ h5 {
     left: 0;
     width: 100%;
     background-color: rgba(15, 15, 15, 0.959);
-    height: 100vh;
+    height: 65vh;
     overflow: hidden;
     transition: .3s ease-in-out;
-
+    /* padding: 1em 0em; */
   }
 
   #hamburge span {
@@ -240,7 +240,7 @@ h5 {
     margin-top: 6em;
   }
 
-  nav ul a {
+  #menuList li {
     font-size: 1.5rem;
     padding-top: 1.5em;
   }
@@ -251,7 +251,7 @@ h5 {
   
 }
 
-
+/* about secton */
 /* About page css */
 
 .AboutSection1 {
