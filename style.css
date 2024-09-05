@@ -106,20 +106,18 @@ section {
   overflow: hidden;
 }
 
-@keyframes rightScroll {
+/* @keyframes rightScroll {
   from {
     margin-right: -100%;
-    display: none;
     opacity: .1;
   }
 
   to {
-    display: block;
     margin-right: 0;
     opacity: 1;
   }
 
-}
+} */
 
 .info-box {
   display: flex;
@@ -132,10 +130,9 @@ section {
 
 }
 
-@keyframes rightScroll2 {
+/* @keyframes rightScroll2 {
   from {
     margin-left: -100%;
-    display: none;
     opacity: .1;
   }
 
@@ -144,7 +141,7 @@ section {
     margin-left: 0;
     opacity: 1;
   }
-}
+} */
 
 h1 {
   font-size: 3rem;
@@ -277,11 +274,11 @@ h5 {
   animation: abtimg 1.2s ease-in-out;
 }
 
-@keyframes abtimg {
+/* @keyframes abtimg {
   from {
     width: 0;
   }
-}
+} */
 
 .aboutMe-info {
   display: flex;
@@ -291,7 +288,7 @@ h5 {
   animation: abtsect 1.2s ease-in-out;
 }
 
-@keyframes abtsect {
+/* @keyframes abtsect {
   from {
     margin-bottom: -100%;
   }
@@ -299,7 +296,7 @@ h5 {
   to {
     margin-bottom: 0;
   }
-}
+} */
 
 .aboutMe-info h1 {
   font-size: 3em;
@@ -422,7 +419,7 @@ h5 {
 
 }
 
-@keyframes eduanmi {
+/* @keyframes eduanmi {
   from {
     margin-top: -100%;
   }
@@ -430,7 +427,7 @@ h5 {
   to {
     margin-top: 0;
   }
-}
+} */
 
 .educationsub1 span {
   color: white;
@@ -439,7 +436,7 @@ h5 {
 
 .education img {
   width: 35vw;
-  height: 50vh;
+
   border-radius: 20px;
 }
 
@@ -464,7 +461,7 @@ h5 {
   flex-direction: column;
   align-items: center;
   gap: 3em;
-  margin-top: 2em;
+  margin-top: 10em;
 }
 
 .primary {
@@ -492,7 +489,6 @@ h5 {
 @media (max-width:1000px) {
   .education img {
     width: 55vw;
-    height: 40vh;
     border-radius: 20px;
   }
 
@@ -519,6 +515,9 @@ h5 {
   .education {
     padding-top: 15vh;
   }
+  .education{
+    margin-top: 1em;
+  }
 }
 
 /* contact section */
@@ -530,7 +529,7 @@ h5 {
   animation: contactanim 1.2s ease-in-out;
 }
 
-@keyframes contactanim {
+/* @keyframes contactanim {
   from {
     margin-top: -100%;
   }
@@ -538,7 +537,7 @@ h5 {
   to {
     margin-top: 0;
   }
-}
+} */
 
 .contact h1 span,
 .contactLeft ul li span {
@@ -713,7 +712,7 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: 2em;
-  margin-top: 10vh;
+  padding-top: 13vh;
 }
 
 .item img {
@@ -741,12 +740,12 @@ footer {
   animation: itemani 1.2s ease-in-out;
 }
 
-@keyframes itemani {
+/* @keyframes itemani {
   from {
     margin-top: -100%;
   }
 
-}
+} */
 
 .services h1 span {
   background: linear-gradient(to right, #11998E, #20a353);
